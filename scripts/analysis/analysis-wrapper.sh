@@ -11,8 +11,8 @@
 stableBranch="master"
 repository="android"
 
-ruby scripts/analysis/lint-up.rb $1 $2 $3
-lintValue=$?
+# ruby scripts/analysis/lint-up.rb $1 $2 $3
+# lintValue=$?
 
 ruby scripts/analysis/findbugs-up.rb $1 $2 $3
 findbugsValue=$?

@@ -50,8 +50,7 @@ puts "running FindBugs..."
 # system './gradlew findbugs'
 
 # confirm that FindBugs ran w/out error
-# result = $?.to_i
-result = 0
+result = $?.to_i
 if result != 0
     puts "FAIL: failed to run ./gradlew findbugs"
     exit 1
